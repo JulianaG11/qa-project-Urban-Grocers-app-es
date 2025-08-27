@@ -14,7 +14,5 @@ def post_new_client_kit(kit_body, auth_token):
                                   "Authorization": f"Bearer {auth_token}"})
 
 def get_new_user_token():
-    # Crear un nuevo usuario usando los datos del archivo data.py
     user_response = post_new_user(data.user_body)
-    # Extraer y devolver el authToken de la respuesta
     return user_response.json()["authToken"]

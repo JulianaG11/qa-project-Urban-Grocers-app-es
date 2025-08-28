@@ -13,6 +13,3 @@ def post_new_client_kit(kit_body, auth_token):
                          headers={"Content-Type": "application/json",
                                   "Authorization": f"Bearer {auth_token}"})
 
-def get_new_user_token():
-    user_response = post_new_user(data.user_body)
-    return user_response.json()["authToken"]

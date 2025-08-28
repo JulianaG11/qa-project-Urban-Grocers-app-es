@@ -1,9 +1,13 @@
-user_body = {
-    "firstName": "Andrea",
-    "phone": "+11234567890",
-    "address": "123 Elm Street, Anytown, AA 12345"
+headers = {
+    "Content-Type": "application/json"
 }
 
-kit_body = {
-    "name": ""  # Este campo lo cambiarás en cada prueba
+user_body_four = {
+    "firstName": "User Four",
+    "phone": "+11234567890",
+    "address": "123 Elm Street, Hilltop"
+}
+
+kit_body_four = {
+    "name":"AbcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdAbcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcD"
 }

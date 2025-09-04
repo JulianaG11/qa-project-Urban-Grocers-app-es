@@ -82,7 +82,7 @@ kit_body_two =  {
 }
 
 user_body_one = {
-    "firstName": "User three",
+    "firstName": "User one",
     "phone": "+11234567890",
     "address": "123 Elm Street, Hilltop"
 }
